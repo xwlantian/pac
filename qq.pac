@@ -1,8 +1,8 @@
 function FindProxyForURL(url, host) {
   if (isPlainHostName(host)) {
     return "DIRECT";
-  } else if (shExpMatch(host, "*.qq.com")){
-    return "PROXY 47.117.122.77:3128; DIRECT";
+  } else if (shExpMatch(host, "*.y.qq.com")){
+    return "PROXY 121.5.192.40:2408; DIRECT";
   }
   return "DIRECT";
 }
