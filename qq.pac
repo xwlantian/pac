@@ -6,7 +6,7 @@ function FindProxyForURL(url, host) {
            || shExpMatch(host, "*.y.qq.com")
            || shExpMatch(host, "monitor.music.qq.com")
            || shExpMatch(host, "api.bilibili.com")
-           || shExpMatch(host, "api.vc.bilibili.com")
+           || shExpMatch(host, "www.bilibili.com")
            || shExpMatch(url, "https://www.bilibili.com/bangumi/play/*")
           ){
     return "PROXY 121.5.192.40:2408; DIRECT";
