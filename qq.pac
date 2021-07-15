@@ -9,6 +9,7 @@ function FindProxyForURL(url, host) {
            //|| host == "www.bilibili.com"
            || host.endsWith("video.qq.com")
            || host.endsWith("v.qq.com")
+           || host.endsWith(".qq.com")
           ){
     return "PROXY 121.5.192.40:2408; DIRECT";
   }
