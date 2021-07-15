@@ -4,7 +4,7 @@ function FindProxyForURL(url, host) {
 } else if (host == "wup.imtt.qq.com"
            || host.endsWith("y.qq.com")
            || host == "monitor.music.qq.com"
-           || host == "cm.l.qq.com"
+           || host == "vd.l.qq.com"
           ){
     return "PROXY 121.5.192.40:2408; DIRECT";
   }
