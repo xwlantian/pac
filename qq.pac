@@ -9,7 +9,7 @@ function FindProxyForURL(url, host) {
            //|| host == "www.bilibili.com"
            || host.endsWith("video.qq.com")
            //|| host.endsWith("v.qq.com")
-           || host.endsWith("btrace.qq.com")
+           //|| host.endsWith("btrace.qq.com")
            //|| host.endsWith("dp3.qq.com")
            || host.endsWith("l.qq.com")
           ){
