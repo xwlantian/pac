@@ -8,6 +8,7 @@ function FindProxyForURL(url, host) {
            || host == "vv.video.qq.com"
            || host == "h5vv.video.qq.com"
            || host.endsWith(".cctv.com")
+           || host.endsWith(".cctv.cn")
            //|| host.endsWith("video.qq.com")
            //|| host.endsWith(".qq.com")
           ){
