@@ -12,7 +12,7 @@ function FindProxyForURL(url, host) {
            //|| host.endsWith(".qq.com")
           ){
     //return "PROXY 121.5.192.40:2408; DIRECT";
-      return "PROXY 124.223.43.111:2408; DIRECT";
+      return "PROXY webproxy.xieweii.com:2408; DIRECT";
   }
   return "DIRECT";
 }
