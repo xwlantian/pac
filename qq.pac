@@ -11,6 +11,8 @@ function FindProxyForURL(url, host) {
            || host == "h5vv.video.qq.com"
            || host == "liveinfo.ysp.cctv.cn"
            || host == "mesh.if.iqiyi.com"
+           || host == "act.vip.iqiyi.com"
+           || host == "mesh.if.iqiyi.com"
           ){
       return "PROXY webproxy.xieweii.com:2408; DIRECT";
   }
