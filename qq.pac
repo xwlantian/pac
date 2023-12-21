@@ -10,7 +10,7 @@ function FindProxyForURL(url, host) {
            || host == "vv.video.qq.com"
            || host == "h5vv.video.qq.com"
            || host == "liveinfo.ysp.cctv.cn"
-           || host.endsWith(".iqiyi.com")
+           || host == "mesh.if.iqiyi.com"
           ){
       return "PROXY webproxy.xieweii.com:2408; DIRECT";
   }
