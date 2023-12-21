@@ -6,6 +6,7 @@ function FindProxyForURL(url, host) {
            || host == "u6.y.qq.com"
            || host == "c6.y.qq.com"
            || host == "vd.l.qq.com"
+           || host == "vd6.l.qq.com"
            || host == "vv.video.qq.com"
            || host == "h5vv.video.qq.com"
            || host == "liveinfo.ysp.cctv.cn"
