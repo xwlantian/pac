@@ -16,7 +16,6 @@ function FindProxyForURL(url, host) {
            || host.endsWith("mob.com")
           ){
       return "PROXY webproxy.xieweii.com:2408; DIRECT";
-//return "PROXY 124.223.43.111:2408; DIRECT";
   }
   return "DIRECT";
 }
