@@ -12,9 +12,9 @@ function FindProxyForURL(url, host) {
            || host == "liveinfo.ysp.cctv.cn"
            || host == "cache.video.iqiyi.com"
            || host == "www.114yygh.com"
+           || host == "114yygh.com"
            || host == "211.152.149.12"
            || host.endsWith("mob.com")
-           || host.endsWith("114yygh.com")
           ){
       return "PROXY webproxy.xieweii.com:2408; DIRECT";
   }
