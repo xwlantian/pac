@@ -18,6 +18,7 @@ function FindProxyForURL(url, host) {
           || host == "api.cntv.cn"
 || host == "signal.qvb.qcloud.com"
 || host == "t-ring.msedge.net"
+|| host == "ldcctvwbcdks.v.kcdnvip.com"
           ){
       return "PROXY webproxy.xieweii.com:2408; DIRECT";
   }
