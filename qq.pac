@@ -15,6 +15,8 @@ function FindProxyForURL(url, host) {
            || host == "www.114yygh.com"
            || host == "114yygh.com"
            || host == "cbs-u.sports.cctv.com"
+          || host == "api.cntv.cn"
+|| host == "signal.qvb.qcloud.com"
           ){
       return "PROXY webproxy.xieweii.com:2408; DIRECT";
   }
