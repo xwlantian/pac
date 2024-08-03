@@ -14,8 +14,8 @@ function FindProxyForURL(url, host) {
            || host == "cache.video.iqiyi.com"
            || host == "www.114yygh.com"
            || host == "114yygh.com"
-|| host.endsWith(".myqcloud.com")
-//|| host.endsWith(".cntv.cn")
+//|| host.endsWith(".myqcloud.com")
+|| host.endsWith(".cntv.cn")
           ){
       return "PROXY webproxy.xieweii.com:2408; DIRECT";
   }
