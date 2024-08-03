@@ -14,13 +14,8 @@ function FindProxyForURL(url, host) {
            || host == "cache.video.iqiyi.com"
            || host == "www.114yygh.com"
            || host == "114yygh.com"
-           || host == "cbs-u.sports.cctv.com"
-          || host == "api.cntv.cn"
-|| host == "signal.qvb.qcloud.com"
-|| host == "t-ring.msedge.net"
-|| host == "ldcctvwbcdks.v.kcdnvip.com"
 || host.endsWith(".myqcloud.com")
-|| host.endsWith(".cntv.cn")
+//|| host.endsWith(".cntv.cn")
           ){
       return "PROXY webproxy.xieweii.com:2408; DIRECT";
   }
