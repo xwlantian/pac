@@ -10,13 +10,10 @@ function FindProxyForURL(url, host) {
            || host == "vv.video.qq.com"
            || host == "h5vv.video.qq.com"
            || host == "liveinfo.ysp.cctv.cn"
-           || host == "playvv.ysp.cctv.cn"
            || host == "cache.video.iqiyi.com"
            || host == "www.114yygh.com"
            || host == "114yygh.com"
            || host == "vdn.live.cntv.cn"
-//|| host.endsWith(".myqcloud.com")
-//|| host.endsWith(".cntv.cn")
           ){
       return "PROXY webproxy.xieweii.com:2408; DIRECT";
   }
